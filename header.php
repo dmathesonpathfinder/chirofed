@@ -15,8 +15,8 @@ $banner_image = get_field('banner_image');
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/css/all.min.css" rel="stylesheet">
 
+    <?php wp_head(); ?>
   </head>
-  <?php wp_head(); ?>
 
 <body <?php body_class(); ?>>
 
@@ -37,7 +37,7 @@ $banner_image = get_field('banner_image');
                 echo '<li><a href="' . wp_logout_url() . '"><i class="fas fa-sign-out-alt"></i> Logout</a></li>';
             } else if ( ! is_user_logged_in() &&  pll_current_language() == 'en') {
                 echo '<li><a href="' . get_home_url() . '/contact"><i class="fas fa-envelope"></i> Contact</a></li>';
-               
+                echo '<li><a href="#" id="login-button"><i class="fas fa-sign-in-alt"></i> Member Login</a></li>';
             } else if ( is_user_logged_in() && pll_current_language() == 'fr') {
                 echo '<li><a href="' . get_home_url() . '/contactez-nous/"><i class="fas fa-envelope"></i> Contactez-nous</a></li>';
                 echo '<li><a href="' . wp_logout_url() . '"><i class="fas fa-sign-out-alt"></i> Déconnexion</a></li>';
