@@ -1,0 +1,37 @@
+/*
+Theme Name: Federation of Canadian Chiropractic Block Theme
+Description: A modern block theme for the Federation of Canadian Chiropractic, converted from traditional theme.
+Author: Red Ear Media
+Author URI: https://www.redearmedia.ca/
+Version: 2.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chirofed
+*/
+
+/* 
+ * Custom styles for the block theme
+ * Additional styles are loaded from the original theme's CSS files
+ */
+
+/* Block editor specific styles */
+.wp-block-button__link {
+    border-radius: 4px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Custom block styles */
+.wp-block-group.has-background {
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wp-block-columns {
+        flex-direction: column;
+    }
+}
