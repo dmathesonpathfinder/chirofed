@@ -5,6 +5,7 @@
 ============================**/
 
 function custom_enqueue_style() {
+  wp_enqueue_style('theme-style', get_stylesheet_uri(), array(), '1.0', 'all');
   wp_enqueue_style('customcss', get_template_directory_uri() . '/css/style.css', array(), '0.1', 'all');
 }
 function custom_enqueue_script() {
