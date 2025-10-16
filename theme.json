@@ -13,8 +13,8 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#003B5C",
-					"name": "Primary"
+					"color": "#215868",
+					"name": "Primary (Teal)"
 				},
 				{
 					"slug": "secondary",
@@ -23,13 +23,18 @@
 				},
 				{
 					"slug": "accent",
-					"color": "#00A0DC",
-					"name": "Accent"
+					"color": "#4aaa9d",
+					"name": "Accent (Green)"
+				},
+				{
+					"slug": "red",
+					"color": "#c55038",
+					"name": "Red"
 				},
 				{
 					"slug": "text",
-					"color": "#333333",
-					"name": "Text"
+					"color": "#555555",
+					"name": "Text (Black)"
 				},
 				{
 					"slug": "background",
@@ -37,14 +42,14 @@
 					"name": "Background"
 				},
 				{
-					"slug": "light-gray",
-					"color": "#F5F5F5",
-					"name": "Light Gray"
+					"slug": "white",
+					"color": "#FFFFFF",
+					"name": "White"
 				},
 				{
-					"slug": "dark-gray",
-					"color": "#666666",
-					"name": "Dark Gray"
+					"slug": "grey",
+					"color": "#d8d8d8",
+					"name": "Grey"
 				}
 			]
 		},

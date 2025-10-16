@@ -65,9 +65,18 @@ add_filter( 'tiny_mce_before_init', 'rem_remove_tinymce_heading' );
 ============================**/
 
 function custom_theme_setup() {
+  // Block theme support
+  add_theme_support('block-templates');
+  add_theme_support('block-template-parts');
+  
+  // Standard theme supports
   add_theme_support('menus');
   add_theme_support('post-thumbnails');
   add_theme_support('title-tag');
+  add_theme_support('wp-block-styles');
+  add_theme_support('responsive-embeds');
+  add_theme_support('editor-styles');
+  add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption'));
 
   register_nav_menu('Main Navigation', 'Main Navigation');
 }
