@@ -1,0 +1,69 @@
+#rem-banner{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:20px 30px;
+}
+#rem-banner .postbox-header{
+display:none;
+}
+#rem-banner .rem-logo{
+display:flex;
+justify-content:center;
+margin:0 0 30px;
+}
+    #rem-banner .rem-logo img{
+    max-width:300px;
+    width:300px;
+    }
+#rem-banner #rem-header{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+width:100%;
+}
+    #rem-banner h3{
+    font-family:"Poppins", sans-serif;
+    font-size:32px;
+    font-weight:700;
+    line-height:1;
+    grid-column:1 / -1;
+    }
+    #rem-banner h4{
+    font-family:"Poppins", sans-serif;
+    font-size:22px;
+    font-weight:400;
+    color:#db2733;
+    letter-spacing:1px;
+    line-height:1;
+    margin:0;
+    grid-column:1 / -1;
+    }
+        #rem-banner .contact-info li{
+        margin:0;
+        }
+        #rem-banner .contact-info li:first-child a{
+        font-size:26px;
+        font-weight:bold;
+        color:#333;
+        transition:all 0.2s ease-out;
+        }
+            #rem-banner .contact-info li:first-child a:hover{
+            color:#555;
+            }
+        #rem-banner .contact-info li:last-child a{
+        font-size:20px;
+        font-weight:bold;
+        color:#db2733;
+        transition:all 0.2s ease-out;
+        }
+            #rem-banner .contact-info li:last-child a:hover{
+            color:#ff0000;
+            }
+#rem-banner .inside{
+display:flex;
+padding:0;
+margin:0;
+}
