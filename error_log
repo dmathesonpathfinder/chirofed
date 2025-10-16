@@ -1,4 +1,0 @@
-[25-Oct-2023 10:26:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/chirofed/public_html/wp-content/themes/chirofed/index.php:2
-Stack trace:
-#0 {main}
-  thrown in /home/chirofed/public_html/wp-content/themes/chirofed/index.php on line 2
